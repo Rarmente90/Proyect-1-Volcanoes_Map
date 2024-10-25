@@ -1,7 +1,8 @@
 # Volcano and Population Map Project
 
 This project uses **Python** and **Folium** to create an interactive map displaying the location and elevation of volcanoes in the United States alongside a world population map based on data from a GeoJSON file. The volcanoes are categorized by elevation, and countries are colored based on their 2005 population.
-
+![Volcano Map Screenshot](Screenshots/All_Map.png)
+*Completed view of the Map*
 ## Files
 
 - **Volcanoes.txt**: Contains latitude, longitude, and elevation data for volcanoes.
@@ -12,10 +13,14 @@ This project uses **Python** and **Folium** to create an interactive map display
 1. **Volcano Map**: 
    - Volcanoes are represented as circular markers.
    - Marker colors change according to the volcano’s elevation: green (<1500 m), orange (1500-3000 m), and red (>3000 m).
+![Volcano Map Screenshot](Screenshots/VolcanoesOff.png) ![Volcano Map Screenshot](Screenshots/VolcanoesOn.png)
+*Volcanoes Off*                                             *Volcanoes On*
 
 2. **World Population Map**: 
    - Each country is colored based on its 2005 population.
    - Green for populations up to 10 million, orange for up to 20 million, and red for over 20 million.
+![Volcano Map Screenshot](Screenshots/VolcanoesOnPopOff.png)
+*Population filter off
 
 ## Code Structure
 
