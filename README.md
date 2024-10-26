@@ -39,7 +39,7 @@ Defines the color of the volcano marker based on elevation (`el`):
 ### Map Layers
 
 - **fgv (Feature Group)**: Contains circular volcano markers. Each marker has a `popup` displaying the elevation in meters.
-- **fgp (Feature Group)**: Contains a world map in GeoJSON format, with fill color defined based on the country’s population in 2005.
+- **fgp (Feature Group)**: Contains a world map in GeoJSON format, with fill color defined based on the country’s population in 2005
 
 ## Execution
 
